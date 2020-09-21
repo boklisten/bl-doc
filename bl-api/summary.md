@@ -4,6 +4,8 @@
 
 This is the backend system for boklisten. It runs as a web server on [api.boklisten.no](https://api.boklisten.no)
 
+* [Authorization](./authorization.md)
+
 ## Introduction
 
 Every action a user does is done through `bl-api`. If it is ordering books or
@@ -39,3 +41,5 @@ should be as fast as possible.
 
 To read the spec and how to develop and test the application you must visit [bl-api's github
 page](https://github.com/holskil/bl-api)
+
+
