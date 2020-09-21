@@ -4,6 +4,7 @@
 
 This is the backend system for boklisten. It runs as a web server on [api.boklisten.no](https://api.boklisten.no)
 
+* [Settings](./settings.md)
 * [Authorization](./authorization.md)
 
 ## Introduction
