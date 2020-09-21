@@ -6,6 +6,7 @@ This is the backend system for boklisten. It runs as a web server on [api.boklis
 
 * [Settings](./settings.md)
 * [Authorization](./authorization.md)
+* [Orders](./orders.md)
 
 ## Introduction
 
