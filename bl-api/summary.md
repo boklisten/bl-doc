@@ -12,6 +12,7 @@ combination of `Boklisten` and `API`.
 * [Authorization](./authorization.md)
 * [Orders](./orders.md)
 * [Customer items](./customer-items.md)
+* [Endpoints and Collections](./endpoints-and-collections.md)
 
 ## Introduction
 
