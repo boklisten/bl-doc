@@ -2,11 +2,16 @@
 
 # bl-api
 
-This is the backend system for boklisten. It runs as a web server on [api.boklisten.no](https://api.boklisten.no)
+![](../imgs/blapi-logo.png)
+
+This is the backend system for boklisten. The production version runs as a web
+server on [api.boklisten.no](https://api.boklisten.no). The name `blapi` is a
+combination of `Boklisten` and `API`.
 
 * [Settings](./settings.md)
 * [Authorization](./authorization.md)
 * [Orders](./orders.md)
+* [Customer items](./customer-items.md)
 
 ## Introduction
 
