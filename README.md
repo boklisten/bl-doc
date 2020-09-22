@@ -1,4 +1,6 @@
-# Boklisten
+![](../imgs/boklisten-logo-long.png)
+
+Documentation for all of Boklisten.no's systems.
 
 ## Our applications and modules
 
