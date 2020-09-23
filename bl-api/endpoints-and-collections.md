@@ -19,6 +19,8 @@ translated to a `Endpoint` that are accessable through HTTP.
 
 # What is a `Collection`?
 
+![Collection flow](../imgs/collection-flow.png)
+
 To explain `Endpoint` and `Collection` in detail we can take the `bl-model`
 class `Order` as an example. 
 
