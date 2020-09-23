@@ -6,8 +6,8 @@ Documentation for all of Boklisten.no's systems.
 
 - Applications
   - [bl-api](bl-api/summary.md)
+  - [bl-admin](bl-admin/summary.md)
   - [bl-web](bl-web/summary.md)
-  - [bl-admin](bl-web/summary.md)
 - Modules
   - [bl-model](bl-model/summary.md)
   - [bl-login](bl-login/summary.md)
