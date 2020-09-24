@@ -8,7 +8,6 @@
   * [Accept terms](#accept-terms)
   * [Register with third-party](#login-with-third-party)
   * [Register with username and password](#register-with-username-and-password)
-* [User detail edit](#user-detail-edit)
 * [Forgot password](#forgot-password)
 
 # Login
@@ -51,14 +50,11 @@ User can also login with username and password.
 ## Further information
 For documentation about how login works in bl-api [please visit bl-api's documentation](../bl-api/authorization.md#login-and-register)
 
-
 # Registration
 Another core part of `bl-login` is registration. Under `/auth/register` you
 will see the screen underneath.
 
-
 ![registration screen](../imgs/bl-login/bl-register-screen.png)
-
 
 ## Accept terms
 To even be able to register the user must accept the terms. By clicking the
@@ -76,24 +72,21 @@ Please read the part about [third-party login](#login-with-third-party).
 
 ## Register with username and password
 
+* `username`: a valid email
+* `passoword`: at least 6 characters
+
+If the registration failed the user will be promted to try again. If the user
+is already registered the user will be promted to login instead.
+
+## If registration was successful
+`bl-api` will redirect to the value set in `bl-redirect`
 
 ## Further information
 For documentation about how register works in bl-api [please visit bl-api's documentation](../bl-api/authorization.md#login-and-register)
 
 
-# User detail edit
 # Forgot password
 
+![forgot password screen](../imgs/bl-login/bl-forgot-screen.png)
 
-
-
-
-
-
-
-
-
-
-## Authorization
-To read more about how authorization is implemented on the server side,
-[please read the documentation on bl-api's authorization](../bl-api/authorization.md)
+The user can ask for a 'forgot-password' link to be sent to their email.
