@@ -2,7 +2,12 @@
 
 Documentation for all of Boklisten.no's systems.
 
-## Our applications and modules
+- [Our applications and modules](#our-applications-and-modules)
+- [Introduction](#introductions)
+- [How our main applications connect to each other](#how-our-main-applications-connect-to-each-other)
+- [Knowledge you need before you code](#knowledge-you-need-before-you-code)
+
+# Our applications and modules
 
 - Applications
   - [bl-api](bl-api/summary.md)
@@ -41,22 +46,25 @@ all equally important to the daily work at boklisten.
 - `bl-admin` is the frontend application for employees. Here the employee can
   view status of a item, rent, sell and buy items and take out reports.
 
-## How our main applications connect to each other
+# How our main applications connect to each other
 
 ![](imgs/bl_systems.png)
 
-## Other services
+# Knowledge you need before you code
 
-We have also created a number of other modules that are used by serveral of our
-main applications.
-
-- [bl-login](bl-login/summary.md)
-  - For login and registration of a user. Used in `bl-web` and `bl-admin`.
-- [bl-model](bl-model/summary.md)
-  - All classes and interfaces that are shared between the main applications. Used by all applications and modules.
-- [bl-connect](bl-connect/summary.md)
-  - A module that is used to connect from frontend to `bl-api`. Used in `bl-web` and `bl-api`.
-- [bl-post-office](bl-post-office/summary.md)
-  - A module that handles Email and SMS. Used in `bl-api`.
-- [bl-email](bl-email/summary.md)
-  - A module that handles receipt email. Used in `bl-api`.
+- [Typescript](https://www.typescriptlang.org)
+  - Every module and application is written in typescript.
+- [NodeJS](https://nodejs.org/en/)
+  - The backend is written in typescript/javascript and to run this code on the server you need the node environment.
+  - [Express](http://expressjs.com)
+    - Express is a framework buildt on top of Node for ease of use regarding http endpoints
+- [Angular](https://angular.io)
+  - Angular 2+ is used for all frontend applications and modules
+- [MongoDB](https://www.mongodb.com)
+  - MongoDB is the backend database we use to store all of our data
+- [NPM](https://www.npmjs.com)
+  - NPM is used to publish and consume our modules
+- [Heroku](https://www.heroku.com)
+  - Where our development and productions servers are located
+- [Git](https://git-scm.com)
+  - For version control
