@@ -9,6 +9,9 @@ This module is made so definitions are equal across all applications and
 modules. If you intend to define a new class that should be used by more than
 one module it should be defined here.
 
+No actuall code functionality is written in this module, only definitions.
+Think of it as a collection of interfaces.
+
 # Some of the classes defined
 
 - Item

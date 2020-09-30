@@ -1,3 +1,5 @@
+[\< home](../README.md)
+
 # bl-login
 
 `bl-login` is a login and registration module used by `bl-web` and `bl-admin`.
