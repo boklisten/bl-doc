@@ -3,7 +3,6 @@
 ![bl-admin](../imgs/bladmin-logo.png)
 
 * [Header](./header.md)
-* [Cart](./cart.md)
 
 # Introduction
 
